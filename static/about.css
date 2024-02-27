@@ -1,0 +1,315 @@
+html {
+    scroll-behavior: smooth;
+   }
+a:visited { text-decoration: none; color:black; }
+a:hover { text-decoration: none; color:blue; }
+a:focus { text-decoration: none; color:yellow; }
+a:hover, a:active { text-decoration: none; color:red }
+body{
+    background-color: turquoise;                                                
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    margin: 0;
+    cursor: url('mouse1.png'), auto;
+}
+
+#border {
+    border: 3px solid;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    pointer-events: none;
+    
+}
+#header {
+    border-bottom: 5px solid;
+    border-color: black;
+    background-color: white;
+    width: 100%;
+    right: 0;
+    left: 0;
+    top: 0;
+    height: 80px;
+    position: fixed;
+
+}
+
+
+#icon_div{
+    width: 250px;
+    height: 80px;
+    margin-right: 0;
+    position: relative;
+    margin-right: 5px;
+    padding: 0;
+    float: right;
+}
+
+.icon{
+    position: relative;
+    height: 70px;
+    margin: 5px;
+    cursor: url('mouse2.png'), auto;
+}
+
+.header_links{
+    padding: 15px;
+    height: 60px;
+    align-items: center;
+    cursor: url('mouse2.png'), auto;
+
+}
+.header_text{
+    font-family: anta;
+    font-size: 30px;
+    text-align: center;
+}
+#home_link{
+    position: fixed;
+    width: 150px;
+    margin-left: 0px;
+    top: -25px;
+}
+#me_link{
+    position: fixed;
+    margin-left: 150px;
+    width: 50px;
+    top: -25px;
+}
+
+#project_link{
+    position: fixed;
+    width: 150px;
+    margin-left: 215px;
+    top: -25px;
+}
+#contact_link{
+    position: fixed;
+    margin-left: 340px;
+    width: 180px;
+    top: -25px;
+}
+
+#mainDiv{
+    position: relative;
+    margin: 0px;
+}
+.mainContainers{
+    margin: 0px;
+    position: relative;
+    padding: 10px;
+    border: 3px solid;
+    border-color: black;
+    width: 100%;
+}
+
+#nameDiv{
+    background-color: rgb(73, 52, 255);
+    padding-top: 7%;
+    
+}
+
+#nameTitle{
+    font-family: anta;
+    color: white;
+    font-size: 9vw;
+    text-align: center;
+    position: relative;
+    padding-top: 10vw;
+    margin: 5%;
+}
+#nameSubTitle{
+    
+    color: wheat;
+    position: relative;
+    padding-bottom: 10vw;
+    margin: 5%;
+    margin-top: -8%;
+}
+
+.subtitle{
+    font-family: anta;
+    font-size: 4vw;
+    text-align: center;
+    margin: 5%;
+    padding-top: 50px;
+    padding: auto;
+}
+.wrapper{
+    position: relative;
+    height: 30%;
+    width: 80%;
+    align-items: center;
+    padding: 5%;
+    margin: 5%;
+    margin-bottom: -8%;
+    margin-top: 0%;
+}
+.card_image{
+    position: absolute;
+    width: 25%;
+    height: 90%;
+    background-repeat: no-repeat;
+    top: 5%;
+    bottom: 5%;
+}
+.image_text{
+    width: 60%;
+    height: 90%;
+    text-align: center;
+    background-color: white;
+    border: 5px solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 2%;
+    
+}
+.image_font{
+    font-family: share tech;
+    font-stretch: expanded;
+    font-size: 2vw;
+}
+#analyst_img{
+    background-image: url("Analyst.png");
+    background-size: contain;
+    right: 5%;
+}
+#right_side_image_text{
+    margin-right: 50%;
+    margin-left: 10%;
+}
+#developer_img{
+    background-image: url("developer.png");
+    background-size: contain;
+
+
+}
+#learner_img{
+    background-image: url("Learner.png");
+    background-size: contain;
+
+}
+.quote
+{
+    margin-top: 3%;
+    margin-bottom: -3%;
+    font-family: anta;
+    font-size: 3vw;
+    text-align: center;
+    padding: auto;
+}
+
+#testDiv
+{
+    position: relative;
+    background-color: rgb(255, 129, 27);
+    height: 30%;
+    width: 100%;
+    margin-top: 0%;
+    padding-bottom: 10%;
+}
+#projects_div{
+    background-color: blanchedalmond;
+}
+#skill_tree_div{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#contact_div{
+    background-color:rgb(110, 179, 89);
+}
+#email_div{
+    width: 40%;
+    height: 70%;
+    background-image: url(letter.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    border-color: black;
+    border-radius: 10%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+#contact_me{
+    font-family: anta;
+    text-align: center;
+    font-size: 45px;
+    
+}
+input{
+    font-family: anta;
+    background-color: aliceblue;
+    margin-left: 12%;
+    font-size: 20px;
+    padding: 16px;
+    border-radius: 10px;
+    border-color: black;
+    margin-bottom: 20px;
+}
+input:focus-within{
+
+    outline: none;
+    border: solid;
+    border-color:red;
+    border-width: 3px;
+}
+button:hover{
+    opacity: 80%;
+    cursor: url('mouse2.png'), auto;
+}
+button{
+    font-family: anta;
+    background-color: aliceblue;
+    margin-left: 12%;
+    font-size: 20px;
+    padding: 16px;
+    border-radius: 10px;
+    border-color: black;
+    margin-bottom: 20px;
+}
+#btn_download{
+    margin-left: 47%;
+    margin-bottom: 5%;
+}
+textarea{
+    font-family: anta;
+    background-color: aliceblue;
+    margin-left: 12%;
+    font-size: 20px;
+    padding: 16px;
+    border-radius: 10px;
+    border-color: black;
+    margin-bottom: 20px;
+}
+textarea:focus-within{
+    outline: none;
+    border-color: red;
+    border-width: 3px;
+}
+#tableau_icon{
+    border: solid 5px;
+    border-color: black;
+    border-radius: 10%;
+    margin-left: 45%;
+    width: 10%;
+    height: 10%;
+}
+#tablue_public_link{
+    margin-top: -10%;
+
+}
+#website_cred{
+    position: absolute;
+    font-family: anta;
+    bottom: 0;
+    left: 0;
+
+}

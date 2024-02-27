@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename ='about.css')}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Share+Tech&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+<div id="mainDiv">
+    <div class="mainContainers" id="nameDiv" >
+        <div id="background1"></div>
+        <h1 id="nameTitle">Alexis Mendoza</h1>
+        <h2 class="subtitle" id="nameSubTitle">Data Analyst and Developer</h2>
+    </div>
+    <div class="mainContainers" id="testDiv" >
+            <h2 class="quote">"Do what you can, with what you have, where you are."</h2>
+            <div class="wrapper">            
+                <div class="card_image" id="learner_img"></div>
+                <div class="image_text">
+                    <p class="image_font">At the university of Texas at Dallas I pursued a Bachelor of Science degree in biology and computer science. With a love for learning, I continuously seek to expand my knowledge and skills, dedicating myself to ongoing education to enhance my repertoire of tools and abilities every day.</p>
+                </div>             </div>
+            <div class="wrapper">
+                <div class="card_image" id="analyst_img"></div>
+                <div class="image_text" id="right_side_image_text">
+                    <p class="image_font">Throughout my journey in computer science, I discovered my interest in data analytics, leading me to earn certifications in Google Data Analytics and Google Business Intelligence. Having worked as a business analyst at Advancia Tech, I am now driven to further explore and master the field of data science.</p>
+                </div>             </div>
+            <div class="wrapper">
+                <div class="card_image" id="developer_img"></div>
+                <div class="image_text">
+                    <p class="image_font">
+                        I have a strong affinity for computer languages and have dedicated myself to becoming a proficient developer. As a confident developer, I eagerly anticipate opportunities to apply my expertise and contribute to meaningful projects.</p>
+                </div> 
+            </div>
+            <h2></h2>
+
+    </div>
+    <div class="mainContainers" id="projects_div">
+        <h2 class="quote">"All skills are learnable."</h2>
+        <h2 class="quote">Skill Tree</h2>
+    <div><img src="static/skillTree.png" alt="" id="skill_tree_div"></div>
+    <div id="tablue_public_link">
+        <h4 id="contact_me">Check out my tableau public!</h4>
+        <a href="https://public.tableau.com/app/profile/alexis.mendoza3542/vizzes" target="_blank"><img id="tableau_icon" class="icon" src="static/tableau_icon.jpg" alt=""></a>
+        <h4 id="contact_me">To see more examples from Advancia Tect please contact me.</h4>
+    </div>
+    </div>
+    <div class="mainContainers" id="contact_div">
+        <h2 class="quote">"Eventually everything connects"</h2>
+        <div id="email_div">
+            <form action="https://formspree.io/f/mqkrbpjw" method="POST">            
+                <h4 id="contact_me">Contact Me</h4>
+                <input type="text" name="first" placeholder="First name" autocomplete="off" required>
+                <input type="text" name="last" placeholder="Last name" autocomplete="off" required>
+                <input type="email" name="email" placeholder="Email Address" autocomplete="off" required>
+                <button type="submit">Send Message</button>
+                <textarea rows="5" cols="60" name="message" placeholder="Enter Text" autocomplete="off" required></textarea>
+            </form>
+        </div>
+
+        <h4 id="contact_me">Download my Resume!</h4>
+        <a href="/static/2024 NY.pdf" download>
+            <button id="btn_download">Resume/CV</button>
+        </a>
+        <b id="website_cred">I created this website with HTML, CSS and python flask!</b>
+    </div>
+</div>
+    <div id="header">
+        <a href="#nameDiv"><div class="header_links" id="home_link"> <p class="header_text">Home</p></div></a>
+        <a href="#testDiv"><div class="header_links" id="me_link"> <p class="header_text">Me</p></div></a>
+        <a href="#projects_div"><div class="header_links" id="project_link"><p class="header_text">Skills</p></div></a>
+        <a href="#contact_div"><div class="header_links" id="contact_link"><p class="header_text">Contact</p></div></a>
+
+        <div id="icon_div" style="cursor: pointer">
+            <a href="https://www.youtube.com/channel/UC1l1Yk1Cs9d9f5Inl0H0F-g" target="_blank"><img id="yotube_icon" class="icon" src="static/youtube_icon.png" alt=""></a>           
+            <a href="https://www.linkedin.com/in/alexis-mendoza-36aa4a98/" target="_blank"><img id="linkedin_icon" class="icon" src="static/linkedin_icon.png" alt=""></a>
+            <a href="https://github.com/clevercheeser?tab=repositories" target="_blank"><img id="github_icon" class="icon" src="static/github_icon.png" alt=""></a>
+        </div>
+        
+    </div>
+    <div id="border"></div>
+</body>
+</html>
